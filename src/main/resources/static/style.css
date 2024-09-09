@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+background-image: url('https://images.pexels.com/photos/640809/pexels-photo-640809.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+
+}
+
+.butt{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#sugarDataGrid {
+    display: none; 
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 0px 10px 10px 10px;    
+    background-color: white;
+}
+
+#sugarDataGrid th, #sugarDataGrid td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+
+#sugarDataGrid th {
+    position: sticky;
+    top: 0;
+
+    background-color: #f0f0f0;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: calc(100% - 40px)  !important; 
+    height: 410px;
+    position: absolute;
+    overflow: auto;
+    left: 0; 
+    right: 0;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+}   
+.wrapper {
+    
+    margin: 20px 14px; 
+    padding: 10px;
+    color: white;
+    background-color: #41B3A2;    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .border1{
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: white;
+  }
+  h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 10px;
+
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+table {
+    border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+    position: relative;
+    width: 100%; 
+}
+table td {
+    font-size: 11px;
+	padding: 8px;
+}
+table thead td {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	border: 1px solid #54585d;
+}
+table tbody td {
+    
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+.but1{
+    cursor: pointer;
+    /* margin: 10px; */
+    margin-right: 15px;
+outline: 0;
+display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+background-color: transparent;
+border: 1px solid transparent;
+padding: 6px 12px;
+font-size: 1rem;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+color: #0d6efd;
+border-color: #0d6efd;
+
+}
+
+.but1:hover {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+}

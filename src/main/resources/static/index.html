@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Data</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h3>Sugar Data</h3>
+        <hr class="border1">
+        <form >
+          <div class="form-row">
+            <label for="fromDate">From Date:</label>
+            <input type="date" id="fromDate" name="fromDate">
+          </div>
+          <div class="form-row">
+            <label for="toDate">To Date:</label>
+            <input type="date" id="toDate" name="toDate">
+          </div>
+          <div class="butt">
+            <button class="but1" id="getSugarDataButton">Get Sugar Data</button>
+            <button class="but1" id="download" >Download</button>
+          </div>
+        </form>
+      </div>
+    <div class="container" id="sugarDataGrid" ></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
